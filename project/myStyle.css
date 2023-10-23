@@ -1,0 +1,33 @@
+.bi-list::before {
+  content: "\f479";
+  transform: scaleX(1.4);
+  font-size: 2rem;
+}
+.mybtnlist:hover {
+  border: 1px solid rgb(116, 151, 198);
+}
+#mysidebar {
+  transition: 0.3s;
+  transition-timing-function: ease-in-out;
+}
+.toggle_sidebar {
+  width: 77px !important;
+}
+.toggle_sidebar .sidebar_content {
+  display: none !important;
+}
+.toggle_sidebar .bi-lightning-charge::before {
+  content: "\F46C";
+  transform: rotateY(360deg);
+  transition: 1s;
+  margin-left:.5rem;
+  margin-top: 30px;
+}
+
+
+.toggle_sidebar .bi-x-circle::before{
+  content:'\F134';
+  transition: 1s;
+  margin-right:15px
+}
+
